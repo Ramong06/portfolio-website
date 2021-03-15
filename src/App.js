@@ -1,14 +1,12 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Resume from "./pages/Resume";
-import HomePage from "./pages/HomePage";
+import Home from './pages/Home';
 
 function App () {
   return (
     <Router>
       <div>
-        <Route exact path="/" component={Resume} />
-        <Route exact path="/resume" component={HomePage} />
+        <Route exact path="/" component={Home} />
       </div>
     </Router>
   );
