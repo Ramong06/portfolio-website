@@ -34,6 +34,15 @@ const Hero = () => {
         return () => clearTimeout(timeout);
     }, [subIndex, index, reverse]);
 
+    // Blinker
+    useEffect(() => {
+        const timeout2 = setTimeout(() => {
+            setBlink((prev) => !prev);
+        }, 500);
+
+        return () => clearTimeout(timeout2);
+    }, [blink]);
+
     return (
         <div className="hero">
             <Container fluid="md">
@@ -41,7 +50,7 @@ const Hero = () => {
                 <Row className="pt-5 justify-content-md-center">
                     <div className="hero-text">
                         <h1 className="typing__header">Ramon Garza III</h1>
-                        <p>I AM A</p>
+                        <h3>I am a {`${words[index].substring(0, subIndex)}${blink ? "|" : " "}`}</h3>
                     </div>
                 </Row>
                 <Row className="pt-3 justify-content-center" id="homeButtons">
