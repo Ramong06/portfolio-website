@@ -74,11 +74,11 @@ body {
 	height: 100% !important;
 }
 
+#homeButtons {
+    margin-top: 35vh;
+}
+
 /* Global Settings */
 *, *:before, *:after {
 	box-sizing: border-box;
-}
-
-#homeButtons {
-    margin-top: 35vh;
 }
