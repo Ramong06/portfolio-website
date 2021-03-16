@@ -1,16 +1,12 @@
 import React from 'react';
-import { Nav, NavLink, NavIcon, Bars } from './NavbarElements';
+import "./styles.css";
 
-const Navbar = ({toggle}) => {
+const Navbar = () => {
     return (
         <>
-            <Nav>
-                <NavLink to='/'>Ramon Garza III</NavLink>
-                <NavIcon onClick={toggle}>
-                    <p>Menu</p>
-                    <Bars />
-                </NavIcon>
-            </Nav>
+            <nav className="navBar">
+                <h3>NAVBAR</h3>
+            </nav>
         </>
     )
 }

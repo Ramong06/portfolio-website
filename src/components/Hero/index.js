@@ -1,5 +1,6 @@
 import React from 'react';
-import { HeroContainer } from './HeroElements';
+import "./styles.css";
+import { Container, Row } from "react-bootstrap";
 import Navbar from "../Navbar";
 
 const Hero = () => {
@@ -9,18 +10,18 @@ const Hero = () => {
     //     setIsOpen(!isOpen);
     // }
     return (
-        <HeroContainer>
-            <Navbar />
-            {/* <Sidebar isOpen={isOpen} toggle={toggle} />
-            <HeroContent>
-                <HeroItems>
-                    <HeroH1>Greatest Pizza Ever</HeroH1>
-                    <HeroP>Ready in 60 Seconds</HeroP>
-                    <HeroBtn>Place Order</HeroBtn>
-                </HeroItems>
-            </HeroContent> */}
-        </HeroContainer>
+        <div className="hero">
+            <Container fluid>
+                <Navbar />
+                <Row>
+                    <div className="hero-text">
+                        <h1>I am Ramon Garza III</h1>
+                        <p>And I'm a Web Developer</p>
+                    </div>
+                </Row>
+            </Container>
+        </div>
     )
 }
 
-export default Hero
+export default Hero;
