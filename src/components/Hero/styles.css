@@ -13,6 +13,21 @@ body {
     color: whitesmoke;
 }
 
+.header {
+	font-size: 100px !important;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.typeWriter {
+	margin-top: 4em;
+	font-size: 54px;
+}
+
+.letter-g {
+	color: rgb(99, 104, 174);
+	font-family: "Great Vibes";
+}
+
 .btn {
     margin-left: 50px;
 	position: relative;
