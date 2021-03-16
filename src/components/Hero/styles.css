@@ -3,7 +3,7 @@ body {
 }
 
 .hero {
-    background: linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.1)), url(../../images/mountains.jpeg);
+    background: linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.1)), url(../../images/me-on-mountain.jpeg);
     height: 100vh;
     background-position: center;
     background-size: cover;
@@ -14,7 +14,7 @@ body {
 }
 
 .btn {
-    margin-left: 30px;
+    margin-left: 50px;
 	position: relative;
 	padding: 1.4rem 4.2rem;
 	padding-right: 3.1rem;
