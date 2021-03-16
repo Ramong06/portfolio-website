@@ -19,10 +19,10 @@ const Hero = () => {
                         <p>And I'm a Web Developer</p>
                     </div>
                 </Row>
-                <Row className="pt-3 justify-content-md-center">
-                    <button className="resumeBtn">Resume</button>
-                    <button className="resumeBtn">Gallery</button>
-                    <button className="resumeBtn">About</button>
+                <Row className="pt-3 justify-content-md-center" id="homeButtons">
+                    <button className="homeButton">Resume</button>
+                    <button className="homeButton">Gallery</button>
+                    <button className="homeButton">About</button>
                 </Row>
             </Container>
         </div>

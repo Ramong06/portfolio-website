@@ -6,5 +6,21 @@
 }
 
 .hero-text {
+    color: whitesmoke;
+}
 
+.homeButton {
+    border: 0.2em solid whitesmoke !important;
+    background: transparent;
+    color: whitesmoke;
+    font-family: fantasy;
+    font-size: 25px;
+    border-radius: 5px;
+    width: 200px;
+    height: 75px;
+    margin: 10px;
+}
+
+#homeButtons {
+    margin-top: 35vh;
 }
