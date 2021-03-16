@@ -1,6 +1,6 @@
 import React from 'react';
 import "./styles.css";
-import { Container, Row } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import Navbar from "../Navbar";
 
 const Hero = () => {
@@ -19,10 +19,16 @@ const Hero = () => {
                         <p>And I'm a Web Developer</p>
                     </div>
                 </Row>
-                <Row className="pt-3 justify-content-md-center" id="homeButtons">
-                    <button className="btn from-top">Resume</button>
-                    <button className="btn from-left">Gallery</button>
-                    <button className="btn from-bottom">About</button>
+                <Row className="pt-3 justify-content-center" id="homeButtons">
+                    <Col>
+                        <button className="btn from-top">RESUME</button>
+                    </Col>
+                    <Col>
+                        <button className="btn from-top">GALLERY</button>
+                    </Col>
+                    <Col>
+                        <button className="btn from-top">ABOUT</button>
+                    </Col>
                 </Row>
             </Container>
         </div>
