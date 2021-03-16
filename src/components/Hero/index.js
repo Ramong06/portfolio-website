@@ -20,9 +20,9 @@ const Hero = () => {
                     </div>
                 </Row>
                 <Row className="pt-3 justify-content-md-center" id="homeButtons">
-                    <button className="homeButton">Resume</button>
-                    <button className="homeButton">Gallery</button>
-                    <button className="homeButton">About</button>
+                    <button className="btn from-top">Resume</button>
+                    <button className="btn from-left">Gallery</button>
+                    <button className="btn from-bottom">About</button>
                 </Row>
             </Container>
         </div>
