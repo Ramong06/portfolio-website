@@ -1,6 +1,7 @@
 import React, { useState, useEffect }from 'react';
 import "./styles.css";
 import { Container, Row, Col } from "react-bootstrap";
+import Sidebar from "../Sidebar";
 const words = ["Developer.", "Creator.", "Problem Solver."];
 
 const Hero = () => {
@@ -45,6 +46,7 @@ const Hero = () => {
     return (
         <div className="hero">
             <Container fluid="md">
+                <Sidebar />
                 <Row className="pt-2 justify-content-md-center">
                     <div className="hero-text">
                         <h3 className="typeWriter"><span className="iAm">I Am A </span>{`${words[index].substring(0, subIndex)}${blink ? "|" : " "}`}</h3>
