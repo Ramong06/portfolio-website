@@ -46,8 +46,8 @@ const Hero = () => {
 
     return (
         <div>
+            <Navbar />
             <Container fluid="md">
-                <Navbar />
                 <Sidebar />
                 <Row className="pt-2 justify-content-md-center">
                     <div className="hero-text">
