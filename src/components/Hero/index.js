@@ -2,6 +2,7 @@ import React, { useState, useEffect }from 'react';
 import "./styles.css";
 import { Container, Row } from "react-bootstrap";
 import Sidebar from "../Sidebar";
+import Navbar from "../Navbar";
 const words = ["Developer.", "Creator.", "Problem Solver."];
 
 const Hero = () => {
@@ -46,6 +47,7 @@ const Hero = () => {
     return (
         <div>
             <Container fluid="md">
+                <Navbar />
                 <Sidebar />
                 <Row className="pt-2 justify-content-md-center">
                     <div className="hero-text">
