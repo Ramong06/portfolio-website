@@ -50,7 +50,7 @@ const Hero = () => {
                         <h3 className="typeWriter"><span className="iAm">I Am A </span>{`${words[index].substring(0, subIndex)}${blink ? "|" : " "}`}</h3>
                     </div>
                 </Row>
-                <Row className="pt-3 justify-content-center" id="homeButtons">
+                <Row className="justify-content-center" id="homeButtons">
                     <Col>
                         <button className="btn from-top">RESUME</button>
                     </Col>
