@@ -1,6 +1,6 @@
 import React, { useState, useEffect }from 'react';
 import "./styles.css";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 import Sidebar from "../Sidebar";
 const words = ["Developer.", "Creator.", "Problem Solver."];
 
@@ -44,7 +44,7 @@ const Hero = () => {
     }, [blink]);
 
     return (
-        <div className="hero">
+        <div>
             <Container fluid="md">
                 <Sidebar />
                 <Row className="pt-2 justify-content-md-center">
@@ -52,18 +52,8 @@ const Hero = () => {
                         <h3 className="typeWriter"><span className="iAm">I Am A </span>{`${words[index].substring(0, subIndex)}${blink ? "|" : " "}`}</h3>
                     </div>
                 </Row>
-                <Row className="justify-content-center" id="homeButtons">
-                    <Col>
-                        <button className="btn from-top">RESUME</button>
-                    </Col>
-                    <Col>
-                        <button className="btn from-top">GALLERY</button>
-                    </Col>
-                    <Col>
-                        <button className="btn from-top">ABOUT</button>
-                    </Col>
-                </Row>
             </Container>
+            
         </div>
     )
 }
