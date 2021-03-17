@@ -1,7 +1,6 @@
 import React from 'react'
 import * as AiIcons from "react-icons/ai";
 import * as IoIcons from "react-icons/io";
-import * as GrIcons from "react-icons/gr";
 
 export const SidebarData = [
     {
@@ -19,13 +18,13 @@ export const SidebarData = [
     {
         title: "Gallery",
         path: "/gallery",
-        icon: <GrIcons.GrGallery />,
+        icon: <IoIcons.IoMdPhotos />,
         className: "nav-text"
     },
     {
         title: "Contact",
         path: "/contact",
-        icon: <GrIcons.GrContactInfo />,
+        icon: <IoIcons.IoIosContact />,
         className: "nav-text"
     },
 ]

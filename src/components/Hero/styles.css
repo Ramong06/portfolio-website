@@ -1,4 +1,4 @@
-body {
+.background {
     background: linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.1)), url(../../images/me-on-mountain.jpeg);
     height: 100vh;
     background-position: center;

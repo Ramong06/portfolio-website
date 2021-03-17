@@ -3,7 +3,7 @@ import "./styles.css";
 import { Container, Row } from "react-bootstrap";
 import Sidebar from "../Sidebar";
 import Navbar from "../Navbar";
-const words = ["Developer.", "Creator.", "Problem Solver."];
+const words = ["Programmer", "Creator", "Problem Solver", "I Am A Web Developer."];
 
 const Hero = () => {
     const [index, setIndex] = useState(0);
@@ -45,13 +45,13 @@ const Hero = () => {
     }, [blink]);
 
     return (
-        <div>
+        <div className="background">
             <Navbar />
             <Container fluid="md">
                 <Sidebar />
-                <Row className="pt-2 justify-content-md-center">
+                <Row className="justify-content-md-center">
                     <div className="hero-text">
-                        <h3 className="typeWriter"><span className="iAm">I Am A </span>{`${words[index].substring(0, subIndex)}${blink ? "|" : " "}`}</h3>
+                        <h3 className="typeWriter"><span className="iAm"></span>{`${words[index].substring(0, subIndex)}${blink ? "|" : " "}`}</h3>
                     </div>
                 </Row>
             </Container>
