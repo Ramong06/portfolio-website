@@ -4,6 +4,7 @@ import SkillsBar from '../components/SkillsBar';
 import { Container, Row, Col } from "react-bootstrap";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import Sidebar from "../components/Sidebar"
 import resumepdf from "../assets/ramon-garza-resume.pdf";
 import * as FaIcons from "react-icons/fa";
 
@@ -12,6 +13,7 @@ const Resume = () => {
         <div className="resume-page">
             <Navbar />
             <Container>
+                <Sidebar />
                 <h1 className="resumeTitle">Ramon Garza III</h1>
                 <h5 className="resumeInfoHeader">(832) 773-7728 | ramong5406@gmail.com | Katy, TX 77493</h5>
                 <Row>
