@@ -1,13 +1,15 @@
 import React from 'react';
+import "../App.css";
 import SkillsBar from '../components/SkillsBar';
 import { Container, Row, Col } from "react-bootstrap";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 import resumepdf from "../assets/ramon-garza-resume.pdf";
 import * as FaIcons from "react-icons/fa";
 
 const Resume = () => {
     return (
-        <div>
+        <div className="resume-page">
             <Navbar />
             <Container>
                 <h1 className="resumeTitle">Ramon Garza III</h1>
@@ -110,6 +112,7 @@ const Resume = () => {
                 </Col>
                 </Row>
             </Container>
+            <Footer />
         </div>
     )
 }

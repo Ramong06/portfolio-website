@@ -3,7 +3,7 @@ import "./style.css";
 
 const Footer = () => (
   <div className="footer">
-    <p> &copy; 2020 Ramon <span className="letter-g">G</span>arza III</p>
+    <p> &copy; 2020 Ramon<span className="letter-g">G</span>arza III</p>
   </div>
 );
 
