@@ -30,18 +30,18 @@ const Resume = () => {
                     <SkillsBar name="CSS3" value={90} />
                     <SkillsBar name="JavaScript" value={90} />
                     <SkillsBar name="React.js" value={90} />
-                    <SkillsBar name="Vue.js" value={90} />
-                    <SkillsBar name="Bootstrap" value={95} />
-                    <SkillsBar name="Rest API" value={80} />
-                    <SkillsBar name="GraphQL" value={80} />
-                    <SkillsBar name="JQuery" value={80} />
-                    <SkillsBar name="MongoDB" value={80} />
-                    <SkillsBar name="MySQL" value={75} />
+                    <SkillsBar name="Bootstrap" value={90} />
                     <SkillsBar name="GIT" value={90} />
-                    <SkillsBar name="Mongoose" value={85} />
-                    <SkillsBar name="Java" value={85} />
                     <SkillsBar name="Node.js" value={85} />
-                    <SkillsBar name="Python" value={70} />
+                    <SkillsBar name="JQuery" value={80} />
+                    <SkillsBar name="Vue.js" value={75} />
+                    <SkillsBar name="Rest API" value={70} />
+                    <SkillsBar name="GraphQL" value={65} />
+                    <SkillsBar name="MongoDB" value={65} />
+                    <SkillsBar name="MySQL" value={65} />
+                    <SkillsBar name="Mongoose" value={65} />
+                    <SkillsBar name="Java" value={50} />
+                    <SkillsBar name="Python" value={40} />
                     </div>
                     <a href={resumepdf} download="ramon-resume">
                         <button className="resume-btn" type="button">
