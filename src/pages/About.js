@@ -6,9 +6,9 @@ import Navbar from "../components/Navbar";
 
 const About = () => {
     return (
-        <div>
+        <div className="about-page">
             <Navbar />
-            <Container fluid="md">
+            <Container>
                 <Sidebar />
                 <Row>
                     Image will go here.

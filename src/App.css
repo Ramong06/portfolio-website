@@ -7,13 +7,13 @@
   font-family: "Lato", sans-serif;
 }
 
-.home, .about, .contact, .gallery {
+/* .home, .contact, .gallery {
   display: flex;
   height: 90vh;
   align-items: center;
   justify-content: center;
   font-size: 3rem;
-}
+} */
 
 .resume-page {
   background: linear-gradient(to right, rgba(148, 148, 148, 0.7), rgba(41, 41, 41, 0.1)),  url(./images/rice-paper2.jpeg);
@@ -40,4 +40,11 @@
   background-color: transparent;
   box-shadow: 0 6px 18px 0 rgba(0, 0, 0, 0.1);
   border: 0.5px solid transparent;
+}
+
+.about-page {
+  background: linear-gradient(to right, rgba(148, 148, 148, 0.7), rgba(41, 41, 41, 0.1)),  url(./images/mountains.jpeg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
 }
