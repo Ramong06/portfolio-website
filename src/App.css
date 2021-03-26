@@ -44,8 +44,9 @@
 
 .about-page {
   background: linear-gradient(to left, rgba(38, 38, 38, 0.7), rgba(41, 41, 41, 0.1)),  url(./images/about-background.jpeg);
-  height: 100vh;
-  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
 
