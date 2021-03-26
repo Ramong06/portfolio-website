@@ -3,7 +3,7 @@ import "./styles.css";
 import { Container, Row } from "react-bootstrap";
 import Sidebar from "../Sidebar";
 import Navbar from "../Navbar";
-const words = ["Coder", "Creator", "Problem Solver", "I Am A Web Developer."];
+const words = ["Web Developer", "Creator", "Problem Solver", "I Am Ramon Garza."];
 
 const Hero = () => {
     const [index, setIndex] = useState(0);
