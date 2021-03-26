@@ -5,6 +5,17 @@
     background-size: cover;
 }
 
+.my-name {
+    margin-top: 4em;
+	font-size: 64px;
+	font-family: "Nanum Myeongjo", sans-serif;
+    color: whitesmoke;
+}
+
+hr.about-page-line {
+    border: 1px solid whitesmoke;
+}
+
 .hero-text {
     color: whitesmoke;
 }

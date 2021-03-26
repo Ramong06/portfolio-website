@@ -15,6 +15,10 @@ const About = () => {
                     <Col>
                         <img className="myPicImage" src={MyPic} alt="male-in-front-of-computer" />
                     </Col>
+                    <Col>
+                        <p>HELLO MY NAME IS RAMON GARZA III AND I AM A WEB DEVELOPER.  I MAKE WEBSITES AND THINGS!</p>
+                        <hr/>
+                    </Col>
                 </Row>
             </Container>
         </div>
