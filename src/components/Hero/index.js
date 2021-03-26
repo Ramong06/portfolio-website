@@ -53,7 +53,7 @@ const Hero = () => {
                     <div className="hero-header-text">
                         <h1 className="my-name">Ramon <span className="letter-g">G</span>arza</h1>
                         <hr className="about-page-line"/>
-                    </div>
+                        </div>
                 </Row>
                 <Row className="justify-content-md-start">
                     <div className="hero-text">

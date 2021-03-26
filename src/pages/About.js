@@ -3,7 +3,7 @@ import "../App.css";
 import Sidebar from '../components/Sidebar';
 import { Container, Row, Col } from "react-bootstrap";
 import Navbar from "../components/Navbar";
-import MyPic from "../images/my-pic2.jpeg";
+import MyPic from "../images/my-pic.jpeg";
 
 const About = () => {
     return (
@@ -12,7 +12,7 @@ const About = () => {
             <Container>
                 <Sidebar />
                 <Row>
-                    <Col>
+                    <Col size="md-4 sm-6 justify-content-md-center">
                         <img className="myPicImage" src={MyPic} alt="male-in-front-of-computer" />
                     </Col>
                     <Col>
