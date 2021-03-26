@@ -1,8 +1,9 @@
 import React from 'react';
 import "../App.css";
 import Sidebar from '../components/Sidebar';
-import { Container, Row } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import Navbar from "../components/Navbar";
+import MyPic from "../images/my-pic2.jpeg";
 
 const About = () => {
     return (
@@ -11,7 +12,9 @@ const About = () => {
             <Container>
                 <Sidebar />
                 <Row>
-                    Image will go here.
+                    <Col>
+                        <img className="myPicImage" src={MyPic} alt="male-in-front-of-computer" />
+                    </Col>
                 </Row>
             </Container>
         </div>
