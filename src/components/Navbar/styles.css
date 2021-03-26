@@ -2,14 +2,15 @@
     background-color: transparent;
     height: 80px;
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: center;
+    right: 0;
 }
 
 .menu-bars {
     margin-left: 1rem;
     font-size: 2rem;
     background: none;
+    display: flex;
 }
 
 .nav-menu {

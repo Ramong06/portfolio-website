@@ -6,8 +6,8 @@
 }
 
 .my-name {
-    margin-top: 4em;
-	font-size: 64px;
+    margin-top: 2em;
+	font-size: 70px;
 	font-family: "Nanum Myeongjo", sans-serif;
     color: whitesmoke;
 }
@@ -26,7 +26,8 @@ hr.about-page-line {
 }
 
 .typeWriter {
-	margin-top: 4em;
-	font-size: 64px;
+	margin-top: 0em;
+    margin-left: -0.5em;
+	font-size: 40px;
 	font-family: "Nanum Myeongjo", sans-serif;
 }
