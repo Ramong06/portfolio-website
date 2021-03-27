@@ -43,11 +43,12 @@
 }
 
 .about-page {
-  background: linear-gradient(to left, rgba(21, 21, 21, 0.81), rgba(23, 23, 23, 0.372)),  url(./images/about-background.jpeg);
+  background: linear-gradient(to right, rgba(21, 21, 21, 0.81), rgba(23, 23, 23, 0.372)),  url(./images/cool-background.png);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  height: 100%;
 }
 
 .p1, .p2, .p3, .p4 {
