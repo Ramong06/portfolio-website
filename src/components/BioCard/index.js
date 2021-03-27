@@ -27,10 +27,6 @@ const BioCard = () => {
             <p className="card-text">
               I look forward to leveraging my skills as a part of a fast-paced, quality-driven team.  Reach out to me by clicking the links below.
             </p>
-            <div className="row justify-content-center" id="card-link">
-                <span className="social-buttons"><a href="https://github.com/Ramong06" target="_blank" rel="noopener noreferrer"><i className="fab fa-github" id="github" style={{ color: 'midnightblue' }} /></a>
-                <a href="https://www.linkedin.com/in/ramon-garza-908611199/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin-in" id="linkedIn" style={{ color: 'midnightblue' }} /></a></span>
-            </div>
           </div>
         </div>
       </div>

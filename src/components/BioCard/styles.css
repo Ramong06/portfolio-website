@@ -12,6 +12,7 @@ h2 {
   font-weight: bold;
   font-size: 48px;
   text-align: center;
+  color: whitesmoke;
 }
 
 .card {
@@ -27,6 +28,11 @@ h2 {
   padding-right: 15px;
   padding-bottom: 15px;
   text-align: center;
+  color: whitesmoke;
+}
+
+#bioCardId {
+  background-color: transparent;
 }
 
 /* .social-buttons a{
