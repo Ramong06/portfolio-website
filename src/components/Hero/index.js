@@ -51,21 +51,21 @@ const Hero = () => {
             <Navbar />
             <Container fluid="md">
                 <Sidebar />
-                <Row className="justify-content-md-center">
+                <Row className="justify-content-center">
                     <img className="myPicImage" src={MyPic} alt="male-in-front-of-computer" />
                 </Row>
-                <Row className="justify-content-md-center">
+                <Row className="justify-content-center">
                     <div className="hero-header-text">
                         <h1 className="my-name">Ramon <span className="letter-g">G</span>arza</h1>
                         <hr className="about-page-line"/>
                         </div>
                 </Row>
-                <Row className="justify-content-md-center">
+                <Row className="justify-content-center">
                     <div className="hero-text">
                         <h3 className="typeWriter"><span className="iAm"></span>{`${words[index].substring(0, subIndex)}${blink ? "|" : " "}`}</h3>
                     </div>
                 </Row>
-                <Row className="justify-content-md-center pt-4">
+                <Row className="justify-content-center pt-4" id="modal-row">
                     <AboutModal />
                 </Row>
             </Container>
