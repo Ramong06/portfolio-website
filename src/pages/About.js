@@ -1,9 +1,10 @@
 import React from 'react';
 import "../App.css";
 import Sidebar from '../components/Sidebar';
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 import Navbar from "../components/Navbar";
-import BioCard from "../components/BioCard";
+// import BioCard from "../components/BioCard";
+import AboutModal from "../components/AboutModal";
 
 const About = () => {
     return (
@@ -12,9 +13,7 @@ const About = () => {
             <Container>
                 <Sidebar />
                 <Row>
-                    <Col>
-                        <BioCard />
-                    </Col>
+                    <AboutModal />
                 </Row>
             </Container>
         </div>
