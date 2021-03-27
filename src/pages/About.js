@@ -4,7 +4,7 @@ import Sidebar from '../components/Sidebar';
 import { Container, Row } from "react-bootstrap";
 import Navbar from "../components/Navbar";
 // import BioCard from "../components/BioCard";
-import AboutModal from "../components/AboutModal";
+
 
 const About = () => {
     return (
@@ -13,7 +13,7 @@ const About = () => {
             <Container>
                 <Sidebar />
                 <Row>
-                    <AboutModal />
+                    
                 </Row>
             </Container>
         </div>

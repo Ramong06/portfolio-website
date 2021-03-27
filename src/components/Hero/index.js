@@ -4,6 +4,7 @@ import { Container, Row } from "react-bootstrap";
 import Sidebar from "../Sidebar";
 import Navbar from "../Navbar";
 import MyPic from "../../images/my-pic2.jpeg";
+import AboutModal from "../AboutModal";
 const words = ["Designer", "Creator", "Problem Solver", "Web Developer."];
 
 const Hero = () => {
@@ -63,6 +64,9 @@ const Hero = () => {
                     <div className="hero-text">
                         <h3 className="typeWriter"><span className="iAm"></span>{`${words[index].substring(0, subIndex)}${blink ? "|" : " "}`}</h3>
                     </div>
+                </Row>
+                <Row className="justify-content-md-center pt-4">
+                    <AboutModal />
                 </Row>
             </Container>
         </div>
