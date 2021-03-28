@@ -17,12 +17,23 @@ const MyVerticallyCenteredModal = (props) => {
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <h4>Centered Modal</h4>
-        <p>
-          Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
-          dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
-          consectetur ac, vestibulum at eros.
-        </p>
+        <h4>About Ramon Garza III</h4>
+            <p className="">
+                I am a Full Stack Web Developer with a background in oil and gas.  I earned a certificate in Full Stack Development from the University
+                of Texas, where I developed new skills and honed my skills in HTML5, CSS, Javascript and MySQL. 
+            </p>
+            <p className="">
+                  An innovative problem solver passionate about developing apps, with a focus on mobile-first design and development. My experience 
+                  in oil and gas has taught me how to adapt to a fast-paced worked enviornment that is always changing and how to implement new information
+                  as it is received. This experience has prepared me to approach projects with creativity and teamwork.
+            </p>
+            <p className="">
+              When I'm not designing or developing, I enjoy streaming and playing video games, outdoor activities, cooking and hanging out with my 2 dogs, Doc and Ranger
+              and cat, Jack Jack the Cat.
+            </p>
+            <p className="">
+              I look forward to leveraging my skills as a part of a fast-paced, quality-driven team.  Reach out to me by clicking the links below.
+            </p>
       </Modal.Body>
       <Modal.Footer>
         <Button onClick={props.onHide}>Close</Button>
