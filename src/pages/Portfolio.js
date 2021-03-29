@@ -4,6 +4,7 @@ import Sidebar from '../components/Sidebar';
 import { Container, Row, Col } from "react-bootstrap";
 import Navbar from "../components/Navbar";
 import AskWinstonCard from "../components/AskWinstonCard";
+import TwitterCloneCard from "../components/TwitterCloneCard";
 
 
 const About = () => {
@@ -15,6 +16,9 @@ const About = () => {
                 <Row>
                     <Col size="md-3 sm-6 justify-content-md-right" id="bioCard"> 
                         <AskWinstonCard />
+                    </Col>
+                    <Col size="md-3 sm-6 justify-content-md-right" id="bioCard"> 
+                        <TwitterCloneCard />
                     </Col>
                 </Row>
             </Container>
