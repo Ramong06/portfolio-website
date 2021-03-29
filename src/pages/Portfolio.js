@@ -7,6 +7,7 @@ import AskWinstonCard from "../components/AskWinstonCard";
 import TwitterCloneCard from "../components/TwitterCloneCard";
 import GameBlog from "../components/GameBlog";
 import EmployeeDirectoryCard from '../components/EmployeeDirectory';
+import PizzaSiteCard from '../components/PizzaSiteCard';
 
 
 const About = () => {
@@ -29,7 +30,7 @@ const About = () => {
                         <EmployeeDirectoryCard />
                     </Col>
                     <Col size="md-3 sm-6 justify-content-md-right" id="bioCard"> 
-                        <GameBlog />
+                        <PizzaSiteCard />
                     </Col>
                 </Row>
             </Container>
