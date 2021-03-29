@@ -57,8 +57,7 @@ const Hero = () => {
                 <Row className="justify-content-center">
                     <div className="hero-header-text">
                         <h1 className="my-name">Ramon <span className="letter-g">G</span>arza</h1>
-                        <hr className="about-page-line"/>
-                        </div>
+                    </div>
                 </Row>
                 <Row className="justify-content-center">
                     <div className="hero-text">

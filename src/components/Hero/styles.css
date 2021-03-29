@@ -6,8 +6,7 @@
 }
 
 .my-name {
-    margin-left: 1em;
-	font-size: 70px;
+	font-size: 50px;
 	font-family: "Nanum Myeongjo", sans-serif;
     color: whitesmoke;
 }
@@ -16,7 +15,6 @@
   display: block;
   width: 200px;
   height: 200px;
-  margin-left: 1.5em;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -30,6 +28,7 @@
 hr.about-page-line {
     border: 1px solid whitesmoke;
 }
+
 
 .hero-text {
     color: whitesmoke;
