@@ -10,8 +10,8 @@ export const SidebarData = [
         className: "nav-text"
     },
     {
-        title: "About",
-        path: "/about",
+        title: "Portfolio",
+        path: "/portfolio",
         icon: <IoIcons.IoMdPerson />,
         className: "nav-text"
     },
