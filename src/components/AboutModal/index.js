@@ -14,7 +14,7 @@ const MyVerticallyCenteredModal = (props) => {
     >
       <Modal.Header closeButton>
         <Modal.Title id="contained-modal-title-vcenter">
-          ABOUT ME
+          <span className="wave">👋🏼 </span>  HELLO! 
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
@@ -24,8 +24,8 @@ const MyVerticallyCenteredModal = (props) => {
                 of Texas, where I learned new skills to compliment my previous experience with HTML5, CSS, Javascript and MySQL. 
             </p>
             <p className="">
-                  An innovative problem solver passionate about developing apps, with a focus on mobile-first design and development. My experience 
-                  in oil and gas has taught me how to adapt to a fast-paced worked enviornment that is always changing and how to implement new information
+                  An innovative problem solver passionate about developing apps, with a focus on mobile-first design. My experience 
+                  in oil and gas has taught me how to adapt to a fast-paced work enviornment that is always changing and how to implement new information
                   as it is received. This experience has taught me to approach projects with creativity and teamwork.
             </p>
             <p className="">
@@ -52,7 +52,7 @@ const AboutModal = () => {
     return (
         <>
         <Button className="about-me-button" onClick={() => setModalShow(true)}>
-        Click For About Me
+        Click Here To Meet Me
       </Button>
 
       <MyVerticallyCenteredModal
