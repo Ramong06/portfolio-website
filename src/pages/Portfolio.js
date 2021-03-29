@@ -5,6 +5,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import Navbar from "../components/Navbar";
 import AskWinstonCard from "../components/AskWinstonCard";
 import TwitterCloneCard from "../components/TwitterCloneCard";
+import GameBlog from "../components/GameBlog";
+import EmployeeDirectoryCard from '../components/EmployeeDirectory';
 
 
 const About = () => {
@@ -19,6 +21,15 @@ const About = () => {
                     </Col>
                     <Col size="md-3 sm-6 justify-content-md-right" id="bioCard"> 
                         <TwitterCloneCard />
+                    </Col>
+                    <Col size="md-3 sm-6 justify-content-md-right" id="bioCard"> 
+                        <GameBlog />
+                    </Col>
+                    <Col size="md-3 sm-6 justify-content-md-right" id="bioCard"> 
+                        <EmployeeDirectoryCard />
+                    </Col>
+                    <Col size="md-3 sm-6 justify-content-md-right" id="bioCard"> 
+                        <GameBlog />
                     </Col>
                 </Row>
             </Container>

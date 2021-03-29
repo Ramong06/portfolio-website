@@ -35,10 +35,10 @@
 }
 
 .portfolio-page {
-  background: linear-gradient(to right, rgba(9, 9, 9, 0.851), rgba(4, 4, 4, 0.475)),  url(./images/cool-background.png);
-    height: 100vh;
+  background: linear-gradient(rgba(9, 9, 9, 0.851), rgba(4, 4, 4, 0.475)),  url(./images/another-background.jpeg); 
     background-position: center;
     background-size: cover;
+
 }
 
 .p1, .p2, .p3, .p4 {
