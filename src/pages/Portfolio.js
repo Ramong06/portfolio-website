@@ -1,19 +1,21 @@
 import React from 'react';
 import "../App.css";
 import Sidebar from '../components/Sidebar';
-import { Container, Row } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import Navbar from "../components/Navbar";
-// import BioCard from "../components/BioCard";
+import AskWinstonCard from "../components/AskWinstonCard";
 
 
 const About = () => {
     return (
-        <div className="about-page">
+        <div className="portfolio-page">
             <Navbar />
             <Container>
                 <Sidebar />
                 <Row>
-                    
+                    <Col size="md-3 sm-6 justify-content-md-right" id="bioCard"> 
+                        <AskWinstonCard />
+                    </Col>
                 </Row>
             </Container>
         </div>
