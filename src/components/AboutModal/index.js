@@ -40,7 +40,7 @@ const MyVerticallyCenteredModal = (props) => {
             </p>
       </Modal.Body>
       <Modal.Footer>
-        <Button onClick={props.onHide}>Close</Button>
+        <Button variant="secondary" onClick={props.onHide}>Close</Button>
       </Modal.Footer>
     </Modal>
   );
@@ -52,7 +52,7 @@ const AboutModal = () => {
     return (
         <>
         <Button className="about-me-button" onClick={() => setModalShow(true)}>
-        Launch vertically centered modal
+        Click For About Me
       </Button>
 
       <MyVerticallyCenteredModal
