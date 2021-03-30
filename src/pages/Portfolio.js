@@ -23,12 +23,16 @@ const About = () => {
                     <Col size="md-3 sm-6 justify-content-md-right" id="bioCard"> 
                         <TwitterCloneCard />
                     </Col>
+                </Row>
+                <Row>
                     <Col size="md-3 sm-6 justify-content-md-right" id="bioCard"> 
                         <GameBlog />
                     </Col>
                     <Col size="md-3 sm-6 justify-content-md-right" id="bioCard"> 
                         <EmployeeDirectoryCard />
                     </Col>
+                </Row>
+                <Row>
                     <Col size="md-3 sm-6 justify-content-md-right" id="bioCard"> 
                         <PizzaSiteCard />
                     </Col>
