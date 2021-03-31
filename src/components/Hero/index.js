@@ -2,7 +2,7 @@ import React, { useState, useEffect }from 'react';
 import "./styles.css";
 import { Container, Row } from "react-bootstrap";
 import Sidebar from "../Sidebar";
-import Navbar from "../Navbar";
+import Navbar2 from "../Navbar2";
 import MyPic from "../../images/my-pic2.jpeg";
 import AboutModal from "../AboutModal";
 const words = ["Designer", "Creator", "Problem Solver", "Web Developer."];
@@ -48,7 +48,7 @@ const Hero = () => {
 
     return (
         <div className="background">
-            <Navbar />
+            <Navbar2 />
             <Container fluid="md">
                 <Sidebar />
                 <Row className="justify-content-center">
