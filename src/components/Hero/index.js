@@ -51,7 +51,8 @@ const Hero = () => {
             <Navbar2 />
             <Container fluid="md">
                 <Sidebar />
-                <Row className="justify-content-center">
+                <Row className="justify-content-center pt-5"></Row>
+                <Row className="justify-content-center pt-5" id="home-row" >
                     <img className="myPicImage" src={MyPic} alt="male-in-front-of-computer" />
                 </Row>
                 <Row className="justify-content-center">

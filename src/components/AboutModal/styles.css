@@ -1,8 +1,19 @@
 .about-me-button {
-  color: #388087 !important;
-  background-color: transparent !important;
+  color: whitesmoke !important;
+  background-color: #388087 !important;
   box-shadow: 0 6px 18px 0 rgba(0, 0, 0, 0.1) !important;
   border: 0.5px solid transparent !important;
+}
+
+.about-me-button:hover:before {
+  transform: scale(1.2);
+  filter: blur(3px);
+}
+
+.about-me-button:hover {
+  color: #388087;
+  box-shadow: 0 0 15px #01ffc4b1 !important;
+  text-shadow: 0 0 15px #388087;
 }
 
 .modal-close-btn {
