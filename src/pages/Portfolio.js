@@ -2,7 +2,7 @@ import React from 'react';
 import "../App.css";
 import Sidebar from '../components/Sidebar';
 import { Container, Row, Col } from "react-bootstrap";
-import Navbar2 from "../components/Navbar2";
+import Navbar from "../components/Navbar";
 import AskWinstonCard from "../components/AskWinstonCard";
 import TwitterCloneCard from "../components/TwitterCloneCard";
 import GameBlog from "../components/GameBlog";
@@ -13,7 +13,7 @@ import PizzaSiteCard from '../components/PizzaSiteCard';
 const About = () => {
     return (
         <div className="portfolio-page">
-            <Navbar2 />
+            <Navbar />
             <Container>
                 <Sidebar />
                 <Row className="justify-content-center pt-5">

@@ -10,9 +10,9 @@ const Navbar2 = () => {
             <Navbar className="navbar" collapseOnSelect expand="lg" variant="dark">
                 <Navbar.Brand href="#home">LOGO</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                <Navbar.Collapse id="responsive-navbar-nav">
+                <Navbar.Collapse className="navbar-collapse" id="responsive-navbar-nav">
                     <Nav className="ml-auto">
-                    <Nav className="ml-auto">
+                    <Nav className="ml-auto" id="navbar-collapse">
                     <Nav.Link href="/"><span className="navbar-link">HOME</span></Nav.Link>
                     <Nav.Link eventKey={2} href="/resume"><span className="navbar-link">RESUMÉ</span></Nav.Link>
                     <Nav.Link eventKey={3} href="/gallery"><span className="navbar-link">GALLERY</span></Nav.Link>
