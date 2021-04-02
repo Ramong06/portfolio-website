@@ -49,7 +49,7 @@ const Hero = () => {
     return (
         <div className="background">
             <Navbar2 />
-            <Container fluid="md">
+            <Container fluid="lg">
                 <Sidebar />
                 <Row className="justify-content-center pt-5"></Row>
                 <Row className="justify-content-center pt-5" id="home-row" >
