@@ -21,12 +21,12 @@ export const SidebarData = [
         icon: <IoIcons.IoIosPaper />,
         className: "nav-text"
     },
-    {
-        title: "Gallery",
-        path: "/gallery",
-        icon: <IoIcons.IoMdPhotos />,
-        className: "nav-text"
-    },
+    // {
+    //     title: "Gallery",
+    //     path: "/gallery",
+    //     icon: <IoIcons.IoMdPhotos />,
+    //     className: "nav-text"
+    // },
     {
         title: "Contact",
         path: "/contact",
