@@ -17,9 +17,9 @@ const About = () => {
             <Container>
                 <Sidebar />
                 <Row className="justify-content-center pt-5">
-                    <Col size="md-3 sm-6 justify-content-md-right" id="bioCard"> 
+                    {/* <Col size="md-3 sm-6 justify-content-md-right" id="bioCard"> 
                         <AskWinstonCard />
-                    </Col>
+                    </Col> */}
                     <Col size="md-3 sm-6 justify-content-md-right" id="bioCard"> 
                         <TwitterCloneCard />
                     </Col>
