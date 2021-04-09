@@ -1,0 +1,7 @@
+.card-body {
+    background: transparent !important;
+    border-color: whitesmoke !important;
+    border-radius: 15px !important;
+    color: whitesmoke;
+    font-weight: bold;
+}

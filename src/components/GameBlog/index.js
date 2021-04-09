@@ -6,7 +6,7 @@ import GameBlogImg from "../../images/game-blog.png";
 const GameBlog = () => {
     return (
         <div>
-            <Card style={{ width: '18rem' }}>
+            <Card className="card-body" style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={GameBlogImg} />
                 <Card.Body>
                     <Card.Title>Game Blog</Card.Title>

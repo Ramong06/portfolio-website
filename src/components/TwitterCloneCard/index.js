@@ -6,7 +6,7 @@ import TwitterCloneImg from "../../images/twitter-clone.png";
 const TwitterClone = () => {
     return (
         <div>
-            <Card style={{ width: '18rem' }}>
+            <Card className="card-body" style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={TwitterCloneImg} />
                 <Card.Body>
                     <Card.Title>TWITTER CLONE</Card.Title>

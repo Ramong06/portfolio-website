@@ -6,7 +6,7 @@ import PizzaSite from "../../images/pizza-site.png";
 const PizzaSiteCard = () => {
     return (
         <div>
-            <Card style={{ width: '18rem' }}>
+            <Card className="card-body" style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={PizzaSite} />
                 <Card.Body>
                     <Card.Title>Pizza Restaurant Template</Card.Title>

@@ -6,7 +6,7 @@ import EmployeeDirectoryImg from "../../images/employee-directory.jpeg";
 const EmployeeDirectoryCard = () => {
     return (
         <div>
-            <Card style={{ width: '18rem' }}>
+            <Card className="card-body" style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={EmployeeDirectoryImg} />
                 <Card.Body>
                     <Card.Title>Employee Directory</Card.Title>
