@@ -14,9 +14,9 @@ const EmployeeDirectoryCard = () => {
                         Is an application in which the user will be able to search through a company directory for an employee. The user will be met
                         with a list of company employees. The user will then be able to search a specific employee by name.
                     </Card.Text>
-                    <Button variant="primary" href="https://github.com/Ramong06/employee-directory" rel="noreferrer" target="_blank">GitHub Repo</Button>
+                    <Button className="card-buttons" href="https://github.com/Ramong06/employee-directory" rel="noreferrer" target="_blank">GitHub Repo</Button>
                     <div className="button-divider" />
-                    <Button variant="primary" href="https://employee-directory5406.netlify.app" rel="noreferrer"  target="_blank">Live Site</Button>
+                    <Button className="card-buttons" href="https://employee-directory5406.netlify.app" rel="noreferrer"  target="_blank">Live Site</Button>
                 </Card.Body>
             </Card>
         </div>
