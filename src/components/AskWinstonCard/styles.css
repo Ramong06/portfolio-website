@@ -5,3 +5,9 @@
     color: whitesmoke;
     font-weight: bold;
 }
+
+.button-divider {
+    width:3.5px;
+    height:auto;
+    display:inline-block;
+}

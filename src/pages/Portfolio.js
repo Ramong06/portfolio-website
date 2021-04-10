@@ -27,11 +27,11 @@ const About = () => {
                         <EmployeeDirectoryCard />
                     </Col>
                 </Row>
-                <Row className="justify-content-center pt-3">
-                    <Col size="md-3 sm-6 justify-content-md-right" id="bioCard"> 
+                <Row className="justify-content-md-center pt-3">
+                    <Col size="md-3 sm-6 justify-content-md-center" id="bioCard"> 
                         <GameBlog />
                     </Col>
-                    <Col size="md-3 sm-6 justify-content-md-right" id="bioCard"> 
+                    <Col size="md-3 sm-6 justify-content-md-center" id="bioCard"> 
                         <PizzaSiteCard />
                     </Col>
                 </Row>

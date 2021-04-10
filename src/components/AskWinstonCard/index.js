@@ -16,8 +16,9 @@ const AskWinston = () => {
                         then be presented with a list of songs or artists that are all similar to the search query.  Along with the list of songs/artists, the user
                         is also able to sample a song and see the lyrics to said song. Click on the link below to check out Ask Winston.
                     </Card.Text>
-                    <Button variant="primary" href="https://github.com/On-Your-Marc-GO/Ask-Winston-Music-Rec-Engine" rel="noreferrer"  target="_blank">GitHub Repo</Button>
-                    <Button variant="primary" href="https://on-your-marc-go.github.io/Ask-Winston-Music-Rec-Engine/" rel="noreferrer"  target="_blank">Live Site</Button>
+                    <Button  className="card-buttons" href="https://github.com/On-Your-Marc-GO/Ask-Winston-Music-Rec-Engine" rel="noreferrer" target="_blank">GitHub Repo</Button>
+                    <div className="button-divider" />
+                    <Button className="card-buttons" href="https://on-your-marc-go.github.io/Ask-Winston-Music-Rec-Engine/" rel="noreferrer"  target="_blank">Live Site</Button>
                 </Card.Body>
             </Card>
         </div>

@@ -13,7 +13,8 @@ const PizzaSiteCard = () => {
                     <Card.Text>
                         Is a Responsive Ecommerce Restaurant Design built with React utilizing styled components.
                     </Card.Text>
-                    <Button variant="primary" href="https://github.com/Ramong06/pizza-site" rel="noreferrer"  target="_blank">GitHub Repo</Button>
+                    <Button variant="primary" href="https://github.com/Ramong06/pizza-site" rel="noreferrer" target="_blank">GitHub Repo</Button>
+                    <div className="button-divider" />
                     <Button variant="primary" href="https://restaurant-template5406.netlify.app/" rel="noreferrer"  target="_blank">Live Site</Button>
                 </Card.Body>
             </Card>
