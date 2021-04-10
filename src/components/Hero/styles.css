@@ -1,8 +1,10 @@
 .background {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.824), rgba(0, 0, 0, 0.523)), url(../../images/particles.jpeg);
-    height: 100vh;
-    background-position: center;
-    background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
 }
 
 .my-name {
