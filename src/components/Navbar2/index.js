@@ -31,10 +31,10 @@ const Navbar2 = () => {
                 </Nav.Item>
                 {/* <Nav.Item>
                 <Nav.Link eventKey={3} href="/gallery"><span className="navbar-link">GALLERY</span></Nav.Link>
-                </Nav.Item>
+                </Nav.Item> */}
                 <Nav.Item>
                 <Nav.Link eventKey={4} href="/portfolio"><span className="navbar-link">PORTFOLIO</span></Nav.Link>
-                </Nav.Item> */}
+                </Nav.Item>
                 <Nav.Item>
                 <Nav.Link eventKey={5} href="/contact"><span className="navbar-link">CONTACT</span></Nav.Link>
                 </Nav.Item>

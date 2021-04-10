@@ -2,7 +2,7 @@ import React from 'react';
 import "../App.css";
 import SkillsBar from '../components/SkillsBar';
 import { Container, Row, Col } from "react-bootstrap";
-import Navbar from "../components/Navbar";
+import Navbar2 from "../components/Navbar2";
 import Footer from "../components/Footer";
 import Sidebar from "../components/Sidebar"
 import resumepdf from "../assets/ramon-garza-resume.pdf";
@@ -11,7 +11,7 @@ import * as FaIcons from "react-icons/fa";
 const Resume = () => {
     return (
         <div className="resume-page">
-            <Navbar />
+            <Navbar2 />
             <Container>
                 <Sidebar />
                 <h1 className="resumeTitle">Ramon Garza III</h1>
