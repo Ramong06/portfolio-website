@@ -8,11 +8,7 @@
 }
 
 .navbar-collapse {
-    background-color: transparent;
-}
-
-.navbar-collapse:active {
-  right: 0;
+    background-color: transparent !important;
 }
 
 .navbar-link {

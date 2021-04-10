@@ -8,10 +8,10 @@ import Navbar from "react-bootstrap/Navbar";
 const Navbar2 = () => {
     return (
         <div>
-            <Navbar variant="dark" expand="lg">
-                <Navbar.Toggle className="toggle-button" aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="justify-content-end" activeKey="/home" expand="lg">
+            <Navbar collapseOnSelect variant="dark" expand="lg">
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Collapse id="responsive-navbar-nav">
+                <Nav className="ml-auto" activeKey="/home" expand="lg">
                 <Nav.Item>
                 <Nav.Link href="/"><span className="navbar-link">HOME</span></Nav.Link>
                 </Nav.Item>
