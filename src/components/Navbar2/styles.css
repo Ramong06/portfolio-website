@@ -1,8 +1,8 @@
 .navbar {
     background-color: transparent;
-    height: 80px;
+    height: 80px !important;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     margin-right: 20px;
     right: 0;
 }
@@ -38,4 +38,8 @@
 
 span {
     margin-left: 16px;
+}
+
+#responsive-navbar-nav {
+  background: #000 !important;
 }

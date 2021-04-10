@@ -51,7 +51,6 @@ const Hero = () => {
             <Navbar2 />
             <Container fluid="md">
                 <Sidebar />
-                <Row className="justify-content-center pt-5"></Row>
                 <Row className="justify-content-center pt-5" id="home-row" >
                     <img className="myPicImage" src={MyPic} alt="male-in-front-of-computer" />
                 </Row>
@@ -65,7 +64,7 @@ const Hero = () => {
                         <h3 className="typeWriter"><span className="iAm"></span>{`${words[index].substring(0, subIndex)}${blink ? "|" : " "}`}</h3>
                     </div>
                 </Row>
-                <Row className="justify-content-center pt-4" id="modal-row">
+                <Row className="justify-content-center pt-4 pb-4" id="modal-row">
                     <AboutModal />
                 </Row>
             </Container>
