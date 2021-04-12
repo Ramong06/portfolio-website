@@ -15,7 +15,7 @@ const Resume = () => {
             <Container>
                 <Sidebar />
                 <h1 className="resumeTitle">Ramon Garza III</h1>
-                <h5 className="resumeInfoHeader">(832) 773-7728 | ramong5406@gmail.com | Katy, TX 77493</h5>
+                <h5 className="resumeInfoHeader">ramong5406@gmail.com | Houston, TX</h5>
                 <hr className="resume_line"/>
                 <Row>
                 <Col size="md-4 sm-6 justify-content-md-center">
