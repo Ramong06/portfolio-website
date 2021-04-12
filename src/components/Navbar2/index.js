@@ -18,7 +18,7 @@ const Navbar2 = () => {
                     className={window.location.pathname === "/" ? "nav-link active" : "nav-link"}
                     id="hoverable"
                 >
-                Home 
+                <span className="navbar-link">HOME</span> 
                 </Link>
                 </Nav.Item>
                 <Nav.Item>
@@ -27,17 +27,29 @@ const Navbar2 = () => {
                     className={window.location.pathname === "/resume" ? "nav-link active" : "nav-link"}
                     id="hoverable"
                 >
-                Resumé 
+                <span className="navbar-link">RESUMÉ</span> 
                 </Link>
                 </Nav.Item>
                 {/* <Nav.Item>
                 <Nav.Link eventKey={3} href="/gallery"><span className="navbar-link">GALLERY</span></Nav.Link>
                 </Nav.Item> */}
                 <Nav.Item>
-                <Nav.Link eventKey={4} href="/portfolio"><span className="navbar-link">PORTFOLIO</span></Nav.Link>
+                <Link
+                    to="/portfolio"
+                    className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
+                    id="hoverable"
+                >
+                <span className="navbar-link">PORTFOLIO</span> 
+                </Link>
                 </Nav.Item>
                 <Nav.Item>
-                <Nav.Link eventKey={5} href="/contact"><span className="navbar-link">CONTACT</span></Nav.Link>
+                <Link
+                    to="/contact"
+                    className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
+                    id="hoverable"
+                >
+                <span className="navbar-link">CONTACT</span> 
+                </Link>
                 </Nav.Item>
                 </Nav>   
                 </Navbar.Collapse>
