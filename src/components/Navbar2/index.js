@@ -1,6 +1,6 @@
 import React from 'react';
 import "./styles.css";
-// import Navbar from "react-bootstrap/Navbar";
+import { Link } from "react-router-dom";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 
@@ -13,10 +13,22 @@ const Navbar2 = () => {
                 <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="ml-auto" activeKey="/home" expand="lg">
                 <Nav.Item>
-                <Nav.Link href="/"><span className="navbar-link">HOME</span></Nav.Link>
+                <Link
+                    to="/"
+                    className={window.location.pathname === "/" ? "nav-link active" : "nav-link"}
+                    id="hoverable"
+                >
+                Home 
+                </Link>
                 </Nav.Item>
                 <Nav.Item>
-                <Nav.Link eventKey={2} href="/resume"><span className="navbar-link">RESUMÉ</span></Nav.Link>
+                <Link
+                    to="/resume"
+                    className={window.location.pathname === "/resume" ? "nav-link active" : "nav-link"}
+                    id="hoverable"
+                >
+                Resumé 
+                </Link>
                 </Nav.Item>
                 {/* <Nav.Item>
                 <Nav.Link eventKey={3} href="/gallery"><span className="navbar-link">GALLERY</span></Nav.Link>
