@@ -42,7 +42,7 @@ const Navbar2 = () => {
                 <span className="navbar-link">PORTFOLIO</span> 
                 </Link>
                 </Nav.Item>
-                <Nav.Item>
+                {/* <Nav.Item>
                 <Link
                     to="/contact"
                     className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
@@ -50,7 +50,7 @@ const Navbar2 = () => {
                 >
                 <span className="navbar-link">CONTACT</span> 
                 </Link>
-                </Nav.Item>
+                </Nav.Item> */}
                 </Nav>   
                 </Navbar.Collapse>
             </Navbar>

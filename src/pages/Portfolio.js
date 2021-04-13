@@ -1,6 +1,7 @@
 import React from 'react';
 import "../App.css";
 import Sidebar from '../components/Sidebar';
+import Footer from "../components/Footer";
 import { Container, Row, Col } from "react-bootstrap";
 import Navbar2 from "../components/Navbar2";
 import AskWinstonCard from "../components/AskWinstonCard";
@@ -35,6 +36,7 @@ const About = () => {
                         <PizzaSiteCard />
                     </Col>
                 </Row>
+                <Footer />
             </Container>
         </div>
     )
