@@ -36,7 +36,7 @@ const MyVerticallyCenteredModal = (props) => {
               team.  If you're looking for a fast learning, creative and critical thinking web
               developer to join your team, then look no further.
               Reach out to me through social media by clicking one of the social links on my
-              page or send me an email through my contact page!
+              page or send me an email from my contact page!
             </p>
       </Modal.Body>
       <Modal.Footer>
