@@ -7,10 +7,6 @@
     right: 0;
 }
 
-.navbar-collapse {
-    background-color: transparent !important;
-}
-
 .navbar-link {
   position: relative;
   width: 60px;

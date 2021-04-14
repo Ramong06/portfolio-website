@@ -34,9 +34,7 @@ const MyVerticallyCenteredModal = (props) => {
             <p className="">
               I look forward to leveraging my skills as a part of a fast-paced, quality-driven
               team.  If you're looking for a fast learning, creative and critical thinking web
-              developer to join your team, then look no further.
-              Reach out to me through social media by clicking one of the social links on my
-              page or send me an email from my contact page!
+              developer to join your team, then look no further! Here I am. 
             </p>
       </Modal.Body>
       <Modal.Footer>
