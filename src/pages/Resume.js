@@ -46,12 +46,12 @@ const Resume = () => {
                     <SkillsBar name="Java" value={50} />
                     <SkillsBar name="Python" value={40} />
                     </div>
-                    <a href='' download="ramon-resume">
+                    {/* <a href='' download="ramon-resume">
                         <button className="resume-btn" type="button">
                         <FaIcons.FaDownload />
                         &nbsp; DOWNLOAD RESUME
                         </button>
-                    </a>
+                    </a> */}
                 </Col>
                 <Col size="md-8 sm-6 justify-content-md-center">
                 <div>
