@@ -21,7 +21,7 @@ const Resume = () => {
                 <Col size="md-4 sm-6 justify-content-md-center">
                 <div>
                 <h2>TECHNICAL SKILLS</h2>
-                <p>Node.Js., Express, JavaScript, ES 6+, jQuery, React.js, React 16.8+/Redux, JSX, GIT, GitHub, MongoDB, MySQL, Mongoose, Handlebars,
+                <p>Node.Js., Express, JavaScript, ES 6+, jQuery, React.js, Next.js, Typescript, React 16.8+/Redux, JSX, GIT, GitHub, MongoDB, MySQL, Mongoose, Handlebars,
                 HTML, CSS, Bootstrap, Materialize, APIs, Heroku, Terminal, AJAX, Rest API, GraphQL, React Hooks, JSON, Sequelize, Java, Springboot,
                 debugging, Excel, Vue.js, Python.</p>
                 </div>
