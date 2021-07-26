@@ -5,7 +5,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import Navbar2 from "../components/Navbar2";
 import Footer from "../components/Footer";
 import Sidebar from "../components/Sidebar"
-import resumepdf from "../assets/ramon-resume.pdf";
 import * as FaIcons from "react-icons/fa";
 
 const Resume = () => {
