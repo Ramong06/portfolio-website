@@ -29,12 +29,15 @@ const Resume = () => {
                     <h6>Skill Level</h6>
                     <SkillsBar name="HTML5" value={90} />
                     <SkillsBar name="CSS3" value={90} />
-                    <SkillsBar name="JavaScript" value={90} />
+                    <SkillsBar name="JavaScript/Typescript" value={90} />
                     <SkillsBar name="React.js" value={90} />
+                    <SkillsBar name="Next.js" value={90} />
                     <SkillsBar name="Bootstrap" value={90} />
+                    <SkillsBar name="MaterialUI" value={90} />
                     <SkillsBar name="GIT" value={90} />
                     <SkillsBar name="Node.js" value={85} />
                     <SkillsBar name="JQuery" value={80} />
+                    <SkillsBar name="TailwindCSS" value={80} />
                     <SkillsBar name="Vue.js" value={75} />
                     <SkillsBar name="Rest API" value={70} />
                     <SkillsBar name="GraphQL" value={65} />
@@ -44,7 +47,7 @@ const Resume = () => {
                     <SkillsBar name="Java" value={50} />
                     <SkillsBar name="Python" value={40} />
                     </div>
-                    <a href={resumepdf} download="ramon-resume">
+                    <a href='' download="ramon-resume">
                         <button className="resume-btn" type="button">
                         <FaIcons.FaDownload />
                         &nbsp; DOWNLOAD RESUME
@@ -65,10 +68,10 @@ const Resume = () => {
                 <h2>PROFESSIONAL EXPERIENCE</h2>
                 </div>
                 <div>
-                <h4>Spatial Consulting</h4>
+                <h4>Poetic</h4>
                 </div>
                 <div>
-                <h5>Full Stack Developer (Contractor) - Houston, TX | 07/2020-10/2020</h5>
+                <h5>Junior Software Developer - Houston, TX | 03/2020-Current</h5>
                     <p>Interfacing and translating client’s business requirements into technical applications and solutions. Tasked to assist in the handling of
                         end-to-end software development in a timely manner to meet contract deadlines while also assisting more experienced developers re-factor
                         and debug their code.
@@ -94,7 +97,7 @@ const Resume = () => {
                 <h4>Wood</h4>
                 </div>
                 <div>
-                <h4>Multi-Skilled Operator (MSO) - South, TX | 10/2011 - 01/2021</h4>
+                <h4>Multi-Skilled Operator/Logistics Coordinator - South, TX | 10/2010 - 03/2020</h4>
                 <p>Keep track of all single-well and multi-well facilities oil and natural gas production. Apply proper maintenance to equipment when
                     and if necessary.</p>
                 <ul>
@@ -120,4 +123,4 @@ const Resume = () => {
     )
 }
 
-export default Resume
+export default Resume;
