@@ -25,6 +25,7 @@
   border-radius: 99em;
   border: 5px solid #eee;
   box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
+  object-fit: cover;
 }
 
 hr.about-page-line {
@@ -45,8 +46,4 @@ hr.about-page-line {
 	font-size: 40px;
 	font-family: "Nanum Myeongjo", sans-serif;
     font-weight: bold;
-}
-
-#modal-row {
-    margin-left: 1em;
 }
