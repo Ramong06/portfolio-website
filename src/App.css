@@ -52,3 +52,7 @@ hr.about-line {
 hr.resume_line {
   border: 2px solid;
 }
+
+hr.skills-line {
+  border: 1px solid;
+}

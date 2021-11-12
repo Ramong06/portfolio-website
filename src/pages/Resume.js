@@ -1,6 +1,5 @@
 import React from 'react';
 import "../App.css";
-import SkillsBar from '../components/SkillsBar';
 import { Container, Row, Col } from "react-bootstrap";
 import Navbar2 from "../components/Navbar2";
 import Footer from "../components/Footer";
@@ -19,39 +18,40 @@ const Resume = () => {
                 <Row>
                 <Col size="md-4 sm-6 justify-content-md-center">
                 <div>
-                <h2>TECHNICAL SKILLS</h2>
-                <p>Node.Js., Express, JavaScript, ES 6+, jQuery, React.js, Next.js, Typescript, React 16.8+/Redux, JSX, GIT, GitHub, MongoDB, MySQL, Mongoose, Handlebars,
-                HTML, CSS, Bootstrap, Materialize, APIs, Heroku, Terminal, AJAX, Rest API, GraphQL, React Hooks, JSON, Sequelize, Java, Springboot,
-                debugging, Excel, Vue.js, Python.</p>
+                            <h2>TECHNICAL SKILLS</h2>
+                            <hr className='skills-line'></hr>
+                            <h4>Programming Languages</h4>
+                            <p>JavaScipt</p>
+                            <p>Java</p>
+                            <p>Python</p>
+                            <br></br>
+                            <h4>Front-End</h4>
+                            <p>ReactJS</p>
+                            <p>Redux</p>
+                            <p>NextJS</p>
+                            <p>AngularJS</p>
+                            <p>Vue3</p>
+                            <p>jQuery</p>
+                            <br></br>
+                            <h4>Back-End</h4>
+                            <p>Rest API</p>
+                            <p>Node.js</p>
+                            <p>GraphQL</p>
+                            <br></br>
+                            <h4>Databases</h4>
+                            <p>PostreSQL</p>
+                            <p>MySQL</p>
+                            <p>MongoDB</p>
+                            <p>Firebase</p>
+                            <br></br>
+                            <h4>Other Tools</h4>
+                            <p>Git</p>
+                            <p>Github/Gitlab</p>
+                            <p>Visual Studio Code</p>
+                            <p>IntelliJ IDEA</p>
+                            <p>Wordpress</p>
+                            <p>Webflow</p>
                 </div>
-                <div className='skillsBar'>
-                    <h6>Skill Level</h6>
-                    <SkillsBar name="HTML5" value={90} />
-                    <SkillsBar name="CSS3" value={90} />
-                    <SkillsBar name="JavaScript/Typescript" value={90} />
-                    <SkillsBar name="React.js" value={90} />
-                    <SkillsBar name="Next.js" value={90} />
-                    <SkillsBar name="Bootstrap" value={90} />
-                    <SkillsBar name="MaterialUI" value={90} />
-                    <SkillsBar name="GIT" value={90} />
-                    <SkillsBar name="Node.js" value={85} />
-                    <SkillsBar name="JQuery" value={80} />
-                    <SkillsBar name="TailwindCSS" value={80} />
-                    <SkillsBar name="Vue.js" value={75} />
-                    <SkillsBar name="Rest API" value={70} />
-                    <SkillsBar name="GraphQL" value={65} />
-                    <SkillsBar name="MongoDB" value={65} />
-                    <SkillsBar name="MySQL" value={65} />
-                    <SkillsBar name="Mongoose" value={65} />
-                    <SkillsBar name="Java" value={50} />
-                    <SkillsBar name="Python" value={40} />
-                    </div>
-                    {/* <a href='' download="ramon-resume">
-                        <button className="resume-btn" type="button">
-                        <FaIcons.FaDownload />
-                        &nbsp; DOWNLOAD RESUME
-                        </button>
-                    </a> */}
                 </Col>
                 <Col size="md-8 sm-6 justify-content-md-center">
                 <div>

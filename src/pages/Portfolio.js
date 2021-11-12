@@ -11,9 +11,9 @@ import EmployeeDirectoryCard from '../components/EmployeeDirectory';
 import PizzaSiteCard from '../components/PizzaSiteCard';
 
 
-const About = () => {
+const About = ( {children }) => {
     return (
-        <div className="portfolio-page">
+        <section className="portfolio-page">
             <Navbar2 />
             <Container>
                 <Sidebar />
@@ -38,7 +38,7 @@ const About = () => {
                 </Row>
                 <Footer />
             </Container>
-        </div>
+        </section>
     )
 }
 

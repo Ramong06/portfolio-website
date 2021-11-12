@@ -5,7 +5,7 @@ import Sidebar from "../Sidebar";
 import Navbar2 from "../Navbar2";
 import MyPic from "../../images/my-pic2.jpeg";
 import AboutModal from "../AboutModal";
-const words = ["Designer", "Creator", "Problem Solver", "Web Developer."];
+const words = ["Web Developer."];
 
 const Hero = () => {
     const [index, setIndex] = useState(0);

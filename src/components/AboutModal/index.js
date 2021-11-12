@@ -18,10 +18,10 @@ const MyVerticallyCenteredModal = (props) => {
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <h4>I Am Ramon Garza III</h4>
+        <h4>I am Ramon Garza III</h4>
             <p className="">
                 A Full Stack Web Developer with a background in oil and gas.  I earned a certificate in Full Stack Development from the University
-                of Texas, where I learned new skills to compliment my previous experience with HTML5, CSS, Javascript and MySQL. 
+                of Texas, where I learned new skills to compliment my previous experience with HTML5, CSS and JavaScript.
             </p>
             <p className="">
                   An innovative problem solver passionate about developing apps, with a focus on mobile-first design. My experience 
@@ -34,7 +34,7 @@ const MyVerticallyCenteredModal = (props) => {
             <p className="">
               I look forward to leveraging my skills as a part of a fast-paced, quality-driven
               team.  If you're looking for a fast learning, creative and critical thinking web
-              developer to join your team, then look no further! Here I am. 
+              developer to join your team, then look no further! Here I am.
             </p>
       </Modal.Body>
       <Modal.Footer>
