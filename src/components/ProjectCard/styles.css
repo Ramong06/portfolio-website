@@ -2,10 +2,12 @@
     background: transparent !important;
     border-color: whitesmoke !important;
     border-radius: 15px !important;
-    display: block !important;
-    color: whitesmoke;
+    color: #f5f5f5;
+    display: block;
+    max-height: 450px !important;
     font-weight: bold;
     margin: 20px;
+    overflow: scroll;
 }
 
 .card-buttons {

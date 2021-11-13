@@ -12,7 +12,7 @@ const ProjectCard = () => {
         { image: TwitterCloneImg, title: 'Twitter Clone', text: 'blah' },
         { image: GameBlogImg, title: 'Game Blog', text: 'blah' },
         { image: PizzaSiteImg, title: 'Pizza Restaurant', text: 'blah' },
-        { image: AskWinstonImg, title: 'Ask Winston', text: '' },
+        { image: AskWinstonImg, title: 'Ask Winston', text: 'is a search engine that searches for music suggestions based on Artists or Songs.  After entering a search item, the user will then be presented with a list of songs or artists that are all similar to the search query.  Along with the list of songs/artists, the user is also able to sample a song and see the lyrics to said song. Click on the link below to check out Ask Winston.' },
         { image: EmployeeDirectoyImg, title: 'Employee Directory', text: 'blah' },
     ];
 

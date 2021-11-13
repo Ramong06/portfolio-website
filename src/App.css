@@ -7,12 +7,19 @@
   font-family: "Lato", sans-serif;
 }
 
+
+
+.tech-skills ul {
+  list-style-type: none;
+}
+
 .resume-page {
-  background: linear-gradient(to right, rgba(148, 148, 148, 0.7), rgba(41, 41, 41, 0.1)),  url(./images/rice-paper2.jpeg);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.824), rgba(0, 0, 0, 0.523)),  url(./images/particles.jpeg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  color: rgba(245, 245, 245, 0.897);
 }
 
 .resume-btn {

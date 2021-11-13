@@ -16,40 +16,50 @@ const Resume = () => {
                 <hr className="resume_line"/>
                 <Row>
                 <Col size="md-4 sm-6 justify-content-md-center">
-                <div>
-                            <h3>TECHNICAL SKILLS</h3>
-                            <hr className='skills-line'></hr>
-                            <h4>Programming Languages</h4>
-                            <p>JavaScipt</p>
-                            <p>Java</p>
-                            <p>Python</p>
-                            <br></br>
-                            <h4>Front-End</h4>
-                            <p>ReactJS</p>
-                            <p>Redux</p>
-                            <p>NextJS</p>
-                            <p>AngularJS</p>
-                            <p>Vue3</p>
-                            <p>jQuery</p>
-                            <br></br>
-                            <h4>Back-End</h4>
-                            <p>Rest API</p>
-                            <p>Node.js</p>
-                            <p>GraphQL</p>
-                            <br></br>
-                            <h4>Databases</h4>
-                            <p>PostreSQL</p>
-                            <p>MySQL</p>
-                            <p>MongoDB</p>
-                            <p>Firebase</p>
-                            <br></br>
-                            <h4>Other Tools</h4>
-                            <p>Git</p>
-                            <p>Github/Gitlab</p>
-                            <p>Visual Studio Code</p>
-                            <p>IntelliJ IDEA</p>
-                            <p>Wordpress</p>
-                            <p>Webflow</p>
+                <div className='tech-skills'>
+                    <h3>TECHNICAL SKILLS</h3>
+                    <hr className='skills-line'></hr>
+                    <h4>Programming Languages</h4>
+                        <ul>
+                            <li>JavaScript</li>
+                            <li>Java</li>
+                            <li>Python</li>
+                        </ul>
+                    <br></br>
+                    <h4>Front-End Frameworks</h4>
+                        <ul>
+                            <li>ReactJS</li>
+                            <li>Redux</li>
+                            <li>NextJS</li>
+                            <li>AngularJS</li>
+                            <li>Vue3</li>
+                            <li>jQuery</li>
+                        </ul>
+                    <br></br>
+                    <h4>Back-End</h4>
+                        <ul>
+                            <li>Rest API</li>
+                            <li>Node.js</li>
+                            <li>GraphQL</li>
+                        </ul>
+                    <br></br>
+                    <h4>Databases</h4>
+                        <ul>
+                            <li>PostreSQL</li>
+                            <li>MySQL</li>
+                            <li>MongoDB</li>
+                            <li>Firebase</li>
+                        </ul>
+                    <br></br>
+                    <h4>Other Tools</h4>
+                        <ul>
+                            <li>Git</li>
+                            <li>Github/Gitlab</li>
+                            <li>Visual Studio Code</li>
+                            <li>IntelliJ IDEA</li>
+                            <li>Wordpress</li>
+                            <li>Webflow</li>
+                        </ul>
                 </div>
                 </Col>
                 <Col size="md-8 sm-6 justify-content-md-center">
@@ -58,7 +68,7 @@ const Resume = () => {
                     <p>Full Stack Software Engineer leveraging 10 years in oil and gas. Brings a
                         strong passion for data and innovation along with a keen eye for aesthetics and presentation.
                         Obtained a certificate in web development from the University of Texas, gaining experience while also honing my skills in HTML, CSS,
-                        and Javascript. Excellent communication skills and collaborator who works well on team-based projects, as well as
+                        and JavaScript. Excellent communication skills and collaborator who works well on team-based projects, as well as
                         independently. Recognized for problem-solving and ability to adapt and implement new information as a part of a fast-paced environment.
                     </p>
                 </div>
@@ -79,10 +89,10 @@ const Resume = () => {
                 </ul>
                 </div>
                 <div>
-                <h4>Freelance</h4>
+                <h4>Software Developer</h4>
                 </div>
                 <div>
-                <h4>Freelance | 10/2020 - 05/2021</h4>
+                <h5>Freelance | 10/2020 - 05/2021</h5>
                 <ul>
                     <li>Learn and implement latest technologies into passion projects and ideas.</li>
                 </ul>
@@ -91,7 +101,7 @@ const Resume = () => {
                 <h4>Spatial Consulting</h4>
                 </div>
                 <div>
-                <h4>Intern | 07/2020 - 10/2020</h4>
+                <h5>Intern | 07/2020 - 10/2020</h5>
                 <ul>
                     <li>Learn from senior developers and contribute to widgets and components in React app.</li>
                     <li>Learn and walk through Tableau.</li>
@@ -101,7 +111,6 @@ const Resume = () => {
                 <h4>WOOD</h4>
                 </div>
                 <div>
-                <h4>Multi-Skilled Operator | 09/2010 - 05/2020</h4>
                 <ul>
                     <li>Monitor Single well and mainline faciliy oil and gas production.</li>
                     <li>Conduct maintenance as needed.</li>

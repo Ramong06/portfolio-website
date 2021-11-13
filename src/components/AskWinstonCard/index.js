@@ -12,9 +12,7 @@
 //                 <Card.Body>
 //                     <Card.Title>ASK WINSTON</Card.Title>
 //                     <Card.Text>
-//                         is a search engine that searches for music suggestions based on Artists or Songs.  After entering a search item, the user will 
-//                         then be presented with a list of songs or artists that are all similar to the search query.  Along with the list of songs/artists, the user
-//                         is also able to sample a song and see the lyrics to said song. Click on the link below to check out Ask Winston.
+//                         is a search engine that searches for music suggestions based on Artists or Songs.  After entering a search item, the user will then be presented with a list of songs or artists that are all similar to the search query.  Along with the list of songs/artists, the user is also able to sample a song and see the lyrics to said song. Click on the link below to check out Ask Winston.
 //                     </Card.Text>
 //                     <Button  className="card-buttons" href="https://github.com/On-Your-Marc-GO/Ask-Winston-Music-Rec-Engine" rel="noreferrer" target="_blank">GitHub Repo</Button>
 //                     <div className="button-divider" />
