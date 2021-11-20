@@ -42,10 +42,12 @@
 }
 
 .portfolio-page {
-  background: linear-gradient(rgba(9, 9, 9, 0.851), rgba(4, 4, 4, 0.475)),  url(./images/another-background.jpeg); 
-    background-position: center;
-    background-size: cover;
-
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.824), rgba(0, 0, 0, 0.523)),  url(./images/particles.jpeg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100vh;
+  color: rgba(245, 245, 245, 0.897);
 }
 
 .p1, .p2, .p3, .p4 {

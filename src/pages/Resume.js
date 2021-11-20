@@ -94,7 +94,7 @@ const Resume = () => {
                 <div>
                 <h5>Freelance | 10/2020 - 05/2021</h5>
                 <ul>
-                    <li>Learn and implement latest technologies into passion projects and ideas.</li>
+                    <li>Learn and implement latest technologies into projects and ideas.</li>
                 </ul>
                 </div>
                 <div>

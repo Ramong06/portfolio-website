@@ -1,47 +1,30 @@
 import React from 'react';
-import "../App.css";
-import ProjectCard from '../components/ProjectCard';
-// import Sidebar from '../components/Sidebar';
-// import Footer from "../components/Footer";
-// import { Container, Row, Col } from "react-bootstrap";
-import Navbar2 from "../components/Navbar2";
-// import AskWinstonCard from "../components/AskWinstonCard";
-// import TwitterCloneCard from "../components/TwitterCloneCard";
-// import GameBlog from "../components/GameBlog";
-// import EmployeeDirectoryCard from '../components/EmployeeDirectory';
-// import PizzaSiteCard from '../components/PizzaSiteCard';
+import Navbar2 from '../components/Navbar2';
+import Sidebar from '../components/Sidebar';
+import Footer from '../components/Footer';
+import TwitterCloneModal from '../components/TwitterCloneModal';
+import GameBlogVue from '../components/GameBlogVueModal';
+import PizzaSite from '../components/PizzaSiteModal';
+import EmployeeDirectoryModal from '../components/EmployeeDirectoryModal';
+import AskWinstonModal from '../components/AskWinstonModal';
+// import { Container, Row, Button } from 'react-bootstrap';
 
-
-const About = ( { children }) => {
+const Portfolio = () => {
     return (
-        <section className="portfolio-page">
-            <Navbar2 />
-            <ProjectCard />
-            {/* <Container>
-                <Sidebar />
-                <Row className="justify-content-center pt-5">
-                    <Col size="md-3 sm-6 justify-content-md-right" id="bioCard"> 
-                        <TwitterCloneCard />
-                    </Col>
-                </Row>
-                <Row className="justify-content-md-center pt-3">
-                    <Col size="md-3 sm-6 justify-content-md-center" id="bioCard"> 
-                        <GameBlog />
-                    </Col>
-                    <Col size="md-3 sm-6 justify-content-md-center" id="bioCard"> 
-                        <PizzaSiteCard />
-                    </Col>
-                    <Col size="md-3 sm-6 justify-content-md-right" id="bioCard"> 
-                        <AskWinstonCard />
-                    </Col>
-                    <Col size="md-3 sm-6 justify-content-md-right" id="bioCard"> 
-                        <EmployeeDirectoryCard />
-                    </Col>
-                </Row>
-                <Footer />
-            </Container> */}
-        </section>
+        <div className='portfolio-page'>
+        <Navbar2 />
+            <Sidebar />
+            <TwitterCloneModal />
+            <GameBlogVue />
+            <PizzaSite />
+            <EmployeeDirectoryModal />
+            <AskWinstonModal />
+            <Footer />
+        </div>
     )
 }
 
-export default About;
+export default Portfolio;
+
+
+

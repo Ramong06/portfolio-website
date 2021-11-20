@@ -1,0 +1,29 @@
+.modal-image {
+    object-fit: cover;
+}
+
+.modal-button {
+  display: block;
+  width: 100%;
+  border-color: #388087 !important;
+  background-color: transparent !important;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  color: #fff;
+  background-image: -webkit-linear-gradient(45deg, #388087 50%, transparent 50%) !important;
+  background-image: linear-gradient(45deg, #388087 50%, transparent 50%) !important;
+  background-position: 100% !important;
+  background-size: 400% !important;
+  -webkit-transition: background 400ms ease-in-out !important;
+  transition: background 400ms ease-in-out !important;
+}
+.modal-button:hover {
+  background-position: 0 !important;
+}
+
+
+#modal-button__space {
+    margin: 3.5em;
+}
