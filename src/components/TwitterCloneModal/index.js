@@ -15,7 +15,7 @@ const ProjectModal = (props) => {
             >
                 <Modal.Header closeButton>
                 <Modal.Title id='modal-title'>
-                    <img className='modal-image' alt='pic-of-twitter-clone' src={TwitterCloneImg} height='500px' width='700px' />
+                    <img className='justify-content-center modal-image' alt='pic-of-twitter-clone' src={TwitterCloneImg} height='500px' width='700px' />
                 </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>

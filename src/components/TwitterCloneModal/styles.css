@@ -1,3 +1,7 @@
+.modal-header {
+  padding: 0rem;
+}
+
 .modal-image {
     object-fit: cover;
 }

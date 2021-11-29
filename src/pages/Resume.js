@@ -76,10 +76,10 @@ const Resume = () => {
                 <h3>PROFESSIONAL EXPERIENCE</h3>
                 </div>
                 <div>
-                <h4>Poetic</h4>
+                <h4>Software Developer</h4>
                 </div>
                 <div>
-                <h5>Software Developer - Houston, TX | 05/2021-Current</h5>
+                <h5>Poetic | 05/2021-Current</h5>
                 <ul>
                     <li>Increased efficiency and collaboration at work-place by assisting senior devs with front-end code by using React, JavaScript, HTML and CSS to build UI components.</li>
                     <li>Collaborate with the Design team to build responsive websites with mobile friendly UI and manage website development projects from initial design through to completion.</li>
@@ -98,17 +98,20 @@ const Resume = () => {
                 </ul>
                 </div>
                 <div>
-                <h4>Spatial Consulting</h4>
+                <h4>Full Stack Web Developer Intern</h4>
                 </div>
                 <div>
-                <h5>Intern | 07/2020 - 10/2020</h5>
+                <h5>Spatial Consulting | 07/2020 - 10/2020</h5>
                 <ul>
                     <li>Learn from senior developers and contribute to widgets and components in React app.</li>
                     <li>Learn and walk through Tableau.</li>
                 </ul>
                 </div>
                 <div>
-                <h4>WOOD</h4>
+                <h4>Multi-Skilled Operator</h4>
+                </div>
+                <div>
+                <h5>WOOD | 10/2010 - 05/2020</h5>
                 </div>
                 <div>
                 <ul>
