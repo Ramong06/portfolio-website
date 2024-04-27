@@ -21,15 +21,6 @@ const Navbar2 = () => {
                 <span className="navbar-link">HOME</span> 
                 </Link>
                 </Nav.Item>
-                <Nav.Item>
-                <Link
-                    to="/resume"
-                    className={window.location.pathname === "/resume" ? "nav-link active" : "nav-link"}
-                    id="hoverable"
-                >
-                <span className="navbar-link">RESUMÉ</span> 
-                </Link>
-                </Nav.Item>
                 {/* <Nav.Item>
                 <Nav.Link eventKey={3} href="/gallery"><span className="navbar-link">GALLERY</span></Nav.Link>
                 </Nav.Item> */}
